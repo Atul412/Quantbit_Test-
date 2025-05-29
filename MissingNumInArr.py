@@ -7,9 +7,8 @@ def Find_Missing_Nun_of_arr(arr):
     for i in range(len(arr)):
         if i not in arr:
             return i
+print("Enter the elements array: ");
 arr = list(map(int,input().split()))
 ans = Find_Missing_Nun_of_arr(arr)
 print(ans)
-
-
-    
+  
